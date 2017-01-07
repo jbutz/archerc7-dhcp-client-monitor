@@ -19,7 +19,7 @@ I got PhantomJS for my Pi here: [fg2it/phantomjs-on-raspberry](https://github.co
 6. Add a crontab to execute `run.sh` on a schedule. I've included my cron entry below
 
 
-I have the cron setup to run at 8:00pm, a time when I could usual deal with mysterious devices
+I have the cron setup to run at 8:00pm, a time when I could usually deal with mysterious devices
 
 ```
 # m h  dom mon dow   command
