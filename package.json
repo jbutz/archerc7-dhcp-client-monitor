@@ -10,5 +10,9 @@
   },
   "scripts": {
     "start": "bash run.sh"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/jbutz/archerc7-dhcp-client-monitor.git"
   }
 }
