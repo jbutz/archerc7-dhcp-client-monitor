@@ -1,0 +1,14 @@
+{
+  "name": "archerc7-dhcp-client-monitor",
+  "description": "DHCP Client Moniter for Archer C7 routers",
+  "author": "Jason Butz",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "hjson": "^2.4.1",
+    "mailgun-js": "^0.8.0"
+  },
+  "scripts": {
+    "start": "bash run.sh"
+  }
+}
