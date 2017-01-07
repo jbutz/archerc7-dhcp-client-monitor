@@ -17,3 +17,11 @@ I got PhantomJS for my Pi here: [fg2it/phantomjs-on-raspberry](https://github.co
 4. Run `npm install` or `yarn install`
 5. Edit the variables in `run.sh` and add MAC address in the same format as the router to `knownClients.json`
 6. Add a crontab to execute `run.sh` on a schedule. I've included my cron entry below
+
+
+I have the cron setup to run at 8:00pm, a time when I could usual deal with mysterious devices
+
+```
+# m h  dom mon dow   command
+  0 20 *   *   *     /home/pi/dhcp-monitor/run.sh
+```
